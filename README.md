@@ -68,9 +68,3 @@ Fundamental and pricing data sourced via a FactSet academic license and not incl
 - Novy-Marx, R. (2013). The Other Side of Value: The Gross Profitability Premium.
 - Asness, C., Frazzini, A., & Pedersen, L. H. Quality Minus Junk.
 - DeMiguel, V., Garlappi, L., & Uppal, R. (2009). Optimal Versus Naive Diversification.
-
-## How to Run
-
-```bash
-pip install -r requirements.txt
-```
