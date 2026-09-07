@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 venv/
 .ipynb_checkpoints/
+factor_model_project_reference.md
+.claude
+data/Dataset.xlsx
