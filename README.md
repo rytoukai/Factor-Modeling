@@ -2,6 +2,8 @@
 
 A sector-neutral, four-factor systematic equity model built on the S&P 500, testing whether more sophisticated factor-weighting schemes actually outperform a simple equal-weight baseline.
 
+*Built with Claude as a pair-programming/research partner — used to accelerate implementation and stress-test methodology choices (e.g. flagging the look-ahead risk in naive IC-weighting, or that a long-short construction was needed to separate factor premium from market beta). All modeling decisions, interpretation, and the final writeup are my own.*
+
 ## Summary
 
 This project builds a long-only, quintile-based factor portfolio using four academically-grounded factors (momentum, value, quality, low volatility) on the S&P 500, using point-in-time FactSet fundamentals to avoid lookahead bias. Three factor-weighting schemes were implemented and backtested: equal-weight, rolling IC-weighted, and Kalman-filtered dynamic weighting.
